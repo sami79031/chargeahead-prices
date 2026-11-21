@@ -1,0 +1,219 @@
+{
+  "country": "TR",
+  "currency": "TRY",
+  "note": "Per kWh, VAT included, as each operator publishes it on its own website or app. One AC and one DC price per operator by law (Şarj Hizmeti Yönetmeliği art. 25); a range where the price depends on the station or time.",
+  "operators": [
+    {
+      "name": "ZES",
+      "keys": [
+        "Zorlu Energy Solutions",
+        "Zorlu Enerji"
+      ],
+      "ac": 10.99,
+      "dc": [
+        12.99,
+        16.49
+      ],
+      "source": "https://zes.net/tr/fiyatlandirma",
+      "check": "page",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Page says prices may vary by location; it doesn't state KDV (Turkish consumer prices include it)."
+    },
+    {
+      "name": "Trugo",
+      "keys": [
+        "Togg Trugo"
+      ],
+      "ac": 9.95,
+      "dc": [
+        12.0,
+        14.98
+      ],
+      "source": "https://www.trugo.com.tr/price",
+      "check": "page",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "DC range by location; KDV not stated on the page."
+    },
+    {
+      "name": "Beefull",
+      "keys": [
+        "Beefull Şarj"
+      ],
+      "ac": 9.9,
+      "dc": 13.99,
+      "source": "https://beefull.com/tarifeler/elektrikli-arac-tarifesi/",
+      "check": "page",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Tüm fiyatlarımıza KDV dahildir."
+    },
+    {
+      "name": "Otopriz",
+      "keys": [
+        "Otopriz Şarj"
+      ],
+      "ac": [
+        7.92,
+        9.9
+      ],
+      "dc": [
+        9.73,
+        13.9
+      ],
+      "source": "https://otopriz.com.tr/uyelik-ve-tarifeler",
+      "check": "page",
+      "checked": "2026-11-21",
+      "changed": "2026-01-20",
+      "note": "KDV dahil; tariff dated 20.01.2026 on the page."
+    },
+    {
+      "name": "Petrol Ofisi e-POwer",
+      "keys": [
+        "e-POwer",
+        "Petrol Ofisi",
+        "PO e-POwer"
+      ],
+      "ac": 8.99,
+      "dc": 11.99,
+      "source": "https://www.petrolofisi.com.tr/urun-ve-hizmetler/e-power",
+      "check": "page",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Use the Turkish page; the English one still shows older prices. KDV dahil."
+    },
+    {
+      "name": "Aksa Şarj",
+      "keys": [
+        "Aksa Sarj",
+        "Aksa Enerji"
+      ],
+      "ac": [
+        9.9,
+        10.9
+      ],
+      "dc": [
+        11.99,
+        13.99
+      ],
+      "source": "https://www.aksasarj.com.tr/ucretler",
+      "check": "page",
+      "checked": "2026-11-21",
+      "changed": "2026-08-07",
+      "note": "Price depends on the station. KDV dahil."
+    },
+    {
+      "name": "WAT Mobilite",
+      "keys": [
+        "Arçelik WAT",
+        "WAT"
+      ],
+      "ac": [
+        9.99,
+        10.99
+      ],
+      "dc": [
+        11.99,
+        14.49
+      ],
+      "source": "https://www.watmobilite.com/cozumler/kamusal-alanlar",
+      "check": "page",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Discounted stations listed on the same page; KDV not stated."
+    },
+    {
+      "name": "Eşarj",
+      "keys": [
+        "Enerjisa Eşarj",
+        "E-şarj"
+      ],
+      "ac": null,
+      "dc": null,
+      "source": "https://esarj.com/fiyatlandirma",
+      "check": "app",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Website shows '-' placeholders; prices only in the Eşarj app (KDV dahil)."
+    },
+    {
+      "name": "Astor Şarj",
+      "keys": [
+        "Astor Enerji"
+      ],
+      "ac": null,
+      "dc": null,
+      "source": "https://astorsarj.com.tr/#section-pricing",
+      "check": "app",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Website shows placeholders; FAQ points to the app."
+    },
+    {
+      "name": "Voltrun",
+      "keys": [
+        "Voltrun Şarj"
+      ],
+      "ac": null,
+      "dc": null,
+      "source": "https://voltrun.com/",
+      "check": "app",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Website refuses automated reads (HTTP 429)."
+    },
+    {
+      "name": "Sharz",
+      "keys": [
+        "Sharz.net"
+      ],
+      "ac": null,
+      "dc": null,
+      "source": "https://sharz.net/",
+      "check": "app",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Website refuses automated reads (HTTP 403). News says its chargers joined the Ovolt network: check which prices apply."
+    },
+    {
+      "name": "Ovolt",
+      "keys": [],
+      "ac": null,
+      "dc": null,
+      "source": "https://ovolt.com.tr/tarifeler",
+      "check": "app",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Website shows AC 7,91, DC 9,67–11,87 without saying KDV; 7,91 × 1.20 ≈ 9,49, so likely before VAT. Confirm in the app before publishing."
+    },
+    {
+      "name": "5Şarj",
+      "keys": [
+        "5 Şarj",
+        "Beş Şarj"
+      ],
+      "ac": null,
+      "dc": null,
+      "source": "https://5sarj.com/",
+      "check": "app",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Website refuses automated reads (HTTP 403)."
+    },
+    {
+      "name": "Tesla Supercharger",
+      "keys": [
+        "Tesla",
+        "Supercharger"
+      ],
+      "ac": null,
+      "dc": null,
+      "source": "https://www.tesla.com/tr_tr/support/supercharging",
+      "check": "app",
+      "checked": "2026-11-21",
+      "changed": null,
+      "note": "Per-site prices in the Tesla app; Tesla and non-Tesla prices differ."
+    }
+  ]
+}
